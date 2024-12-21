@@ -1,0 +1,2 @@
+#python script at top level that defines Flask application instance
+from app import app
