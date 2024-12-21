@@ -2,13 +2,26 @@
 <html>
     <head>
         <title>{{ title }} - HiddenSeer</title>
+        <style>
+            .seer{
+                color: red
+            }
+            .follower{
+                color: firebrick 
+            }
+            .enlightened{
+                color: darkgoldenrod
+            }
+        </style>
     </head>
     <body>
         <h1> HiddenSeer, WIP</h1>
         <div> Here are the roles that will be in the game:</div>
-        <p></p>
-        {% for roles in roles %}
-        <div> {{roles}}  </div>
+        {% for role in roles %}
+            <p class="{% if role == 'Seer' %}seer{% elif role == 'Follower' %}follower{% elif role == 'Enlightened' %}enlightened{% endif %}">
+            {{role}}
+            </p>
         {% endfor %}
+        
     </body>
 </html>
