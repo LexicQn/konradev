@@ -18,7 +18,15 @@
         <h1> HiddenSeer, WIP</h1>
         <div> Here are the roles that will be in the game:</div>
         {% for role in roles %}
-            <p class="{% if role == 'Seer' %}seer{% elif role == 'Follower' %}follower{% elif role == 'Enlightened' %}enlightened{% endif %}">
+        <p class="
+            {% if role == 'Seer' %}
+                seer
+            {% elif role == 'Follower' %}
+                follower
+            {% elif role == 'Enlightened' %}
+                enlightened
+            {% endif %}
+        ">
             {{role}}
             </p>
         {% endfor %}
