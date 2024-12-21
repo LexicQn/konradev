@@ -1,6 +1,7 @@
-import flask
+from flask import render_template
 from app import app
 @app.route('/')
 @app.route('/index')
 def index():
-    return flask.render_template("index.html", title = "Hello!")
+    roles = ["Seer","Follower","Enlightened"]
+    return render_template("index.html", title = "Hello!", roles = roles)
