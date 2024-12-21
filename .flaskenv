@@ -1,1 +1,1 @@
-FLASK_APP=HiddenSeer.py
+FLASK_APP=Game.py
