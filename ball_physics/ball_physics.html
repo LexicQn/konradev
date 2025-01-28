@@ -16,8 +16,8 @@ Loading ball_physics from ball_physics.apk
 
 
 # screen pixels (real, hardware)
-WIDTH=4000  # 1280
-HEIGHT=2000  # 720
+WIDTH=1024  # 1280
+HEIGHT=700  # 720
 
 # reference/idealized screen pixels
 REFX = 1980
@@ -73,7 +73,7 @@ async def custom_site():
     pygame.init()
     pygame.font.init()
 
-    screen = pygame.display.set_mode([ux(.100),uy(.100)], pygame.SRCALPHA, 32)
+    screen = pygame.display.set_mode([ux(1),uy(1)], pygame.SRCALPHA, 32)
     screen.set_colorkey( (0,0,0,0), pygame.RLEACCEL )
     screen.fill( (0,0,0,0) )
 
