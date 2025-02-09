@@ -7,5 +7,9 @@ h1 {
 }
 
 p {
-  color:#c8cfde;
+  color: #c8cfde;
+}
+
+.codespan {
+  color: #eb3737
 }
