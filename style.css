@@ -1,5 +1,6 @@
 body {
   background-color: #191c1c;
+  font-family: Arial, sans-serif;
 }
 
 h1 {
@@ -8,11 +9,7 @@ h1 {
 
 p {
   color: #c8cfde;
-  white-space: pre-wrap;
-}
-p::before,
-p::after {
-  content: '';
+  margin-bottom: 10px;
 }
 
 .codespan {
