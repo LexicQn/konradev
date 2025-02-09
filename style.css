@@ -8,6 +8,11 @@ h1 {
 
 p {
   color: #c8cfde;
+  white-space: pre-wrap;
+}
+p::before,
+p::after {
+  content: '';
 }
 
 .codespan {
