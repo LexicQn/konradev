@@ -7,7 +7,7 @@ h1 {
   color: #ffffff;
 }
 
-p, ul {
+p, ul li {
   color: #c8cfde;
   margin-bottom: 10px;
 }
