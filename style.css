@@ -11,5 +11,10 @@ p {
 }
 
 .codespan {
-  color: #eb3737
+  color: #eb3737;
+}
+
+#subtext {
+  text-align: center;
+  font-size: 70%;
 }
