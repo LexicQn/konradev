@@ -5,6 +5,6 @@ iframe {
 }
 
 #game_frame {
-  margin: auto;
+  margin: 0 auto;
   padding: 10px;
 }
