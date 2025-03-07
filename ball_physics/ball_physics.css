@@ -3,3 +3,8 @@ iframe {
   height: 50%;
   align: center;
 }
+
+#game_frame {
+  margin: auto;
+  padding: 10px;
+}
