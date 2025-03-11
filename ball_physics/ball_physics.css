@@ -1,10 +1,11 @@
 iframe {
-  width: 20%;
-  height: 200%;
+  width: 640px;
+  height: 360px;
 }
 
 #game_frame {
   padding: 10px;
   frameborder: 0;
   margin: 0 auto;
+  background-position: 50% 50%;
 }
