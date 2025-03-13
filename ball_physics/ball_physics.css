@@ -3,9 +3,10 @@ iframe {
   height: 360px;
 }
 
-#game_frame {
+.game_frame {
+  display: flex;
+  justify-content: center;
+  width: 70vw;
   padding: 10px;
   frameborder: 0;
-  margin: 0 auto;
-  background-position: 50% 50%;
 }
