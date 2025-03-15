@@ -7,8 +7,8 @@ p {color:#c8cfde; margin-bottom:10px;}
 .topnavbar {background-color:#000000; position:fixed; top:0; left:0; right:0; width:100%; margin:auto; z-index:-1}
 
 #navlist {list-style_type:none; margin:0; padding:0; overflow:hidden;}
-#navlist li {float:left; font-size:34px}
-#navlist li a {display:inline-block; color:white; text-align:center; padding:18px 22px; text-decoration:none;}
+#navlist li {float:left; font-size:26px}
+#navlist li a {display:inline-block; color:white; text-align:center; padding:16px 20px; text-decoration:none;}
 #navlist li a:hover:not(.active) {background-color:#101010}
 #subtext {text-align:center;font-size: 70%;}
 
