@@ -4,7 +4,7 @@ p {color:#c8cfde; margin-bottom:10px;}
 ul li {color:#c8cfde;}
 
 .codespan {color:#eb3737;}
-.topnavbar {background-color:#000000; position:fixed; top:0; left:0; right:0; width:100%; margin:auto; z-index:-1}
+.topnavbar {background-color:#000000; position:fixed; top:0; left:0; right:0; width:100%; margin:auto;}
 .active {background-color:#037360;}
 
 #navlist {list-style-type:none; margin:0; padding:0; overflow:hidden;}
