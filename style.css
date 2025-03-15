@@ -6,7 +6,7 @@ p {color:#c8cfde; margin-bottom:10px;}
 .codespan {color:#eb3737;}
 .topnavbar {background-color:#000000; position:fixed; width:100%; height:64px; margin:auto; z-index:-1}
 
-#navlist {list-style_type:none; margin:0; padding:0;}
+#navlist {list-style_type:none; margin:0; padding:0; overflow:hidden;}
 #navlist li {float:left;}
 #navlist li a {display:inline-block; color:white; text-align:center; padding:14px 16px; text-decoration:none;}
 #navlist li a:hover:not(.active) {background-color:#101010}
