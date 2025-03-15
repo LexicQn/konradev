@@ -1,7 +1,7 @@
 body {background-color:#101010; font-family:Arial,sans-serif;}
 h1 {color:#ffffff; margin-top:72px;}
 p {color:#c8cfde; margin-bottom:10px;}
-/* ul li {color: #c8cfde;} */
+ul li {color:#c8cfde;}
 
 .codespan {color:#eb3737;}
 .topnavbar {background-color:#000000; position:fixed; top:0; left:0; right:0; width:100%; margin:auto; z-index:-1}
