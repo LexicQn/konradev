@@ -6,9 +6,10 @@ ul li {color:#c8cfde;}
 .codespan {color:#eb3737;}
 .topnavbar {background-color:#000000; position:fixed; top:0; left:0; right:0; width:100%; margin:auto;}
 .active {background-color:#037360;}
+.projects-dropdown {display:none; position:absolute; background-color:#000000; box-shadow:0px 8px 8px 8px #ffffff}
 
 #navlist {list-style-type:none; margin:0; padding:0; overflow:hidden;}
 #navlist li {float:left; font-size:26px}
 #navlist li a {display:inline-block; color:white; text-align:center; padding:16px 20px; text-decoration:none;}
-#navlist li a:hover:not(.active) {background-color:#151515}
+#navlist li a:hover:not(.active), .dropdown {background-color:#151515}
 #subtext {text-align:center;font-size: 70%;}
