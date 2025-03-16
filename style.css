@@ -2,9 +2,8 @@ body {background-color:#101010; font-family:Arial,sans-serif;}
 h1 {color:#ffffff; margin-top:72px;}
 p {color:#c8cfde; margin-bottom:10px;}
 ul li {color:#c8cfde;}
-li.dropdown {display:inline-block}
-
 .codespan {color:#eb3737;}
+
 .topnavbar {background-color:#000000; position:fixed; top:0; left:0; right:0; width:100%; margin:auto;}
 .active {background-color:#037360;}
 .projects-dropdown {display:none; position:absolute; background-color:#000000; box-shadow:0px 8px 8px 8px #ffffff}
@@ -13,7 +12,7 @@ li.dropdown {display:inline-block}
 .dropdown:hover .projects-dropdown {display:block;}
 
 #navlist {list-style-type:none; margin:0; padding:0; overflow:hidden;}
-#navlist li {float:left; font-size:26px}
-#navlist li a {display:inline-block; color:white; text-align:center; padding:16px 20px; text-decoration:none;}
-#navlist li a:hover:not(.active), .dropdown {background-color:#151515}
+li#navlist {float:left; font-size:26px}
+li#navlist a {display:inline-block; color:white; text-align:center; padding:16px 20px; text-decoration:none;}
+li#navlist a:hover:not(.active), .dropdown {background-color:#151515}
 #subtext {text-align:center;font-size: 70%;}
