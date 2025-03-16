@@ -341,6 +341,14 @@ config = {
         }
     </style>
 
+    <button id="startGame">Click to Start</button>
+    <script>
+    document.getElementById("startGame").addEventListener("click", function() {
+        // Start the game in pygbag
+        window.location.href = "game.html";  // Change to your game's actual file
+    });
+    </script>
+
     <script src="https://pygame-web.github.io/archives/0.9//browserfs.min.js"></script>
 
 </head>
