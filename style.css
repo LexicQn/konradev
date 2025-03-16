@@ -9,7 +9,7 @@ ul li {color:#c8cfde;}
 #projects-dropdown {display:none; position:absolute; background-color:#000000; box-shadow:0px 8px 8px 8px #ffffff}
 #projects-dropdown a {color:white; padding:12px 16px; text-decoration:none; display:block; text-align:left;}
 #projects-dropdown a:hover {background-color:#f1f1f1;}
-.dropdown:hover .projects-dropdown {display:block;}
+.dropdown:hover #projects-dropdown {display:block;}
 
 #navlist {list-style-type:none; margin:0; padding:0; overflow:hidden;}
 #navlist li {float:left; font-size:26px}
