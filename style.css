@@ -4,9 +4,9 @@ p {color:#c8cfde; margin-bottom:10px;}
 ul li {color:#c8cfde;}
 .codespan {color:#eb3737;}
 
-.topnavbar {background-color:#000000; position:fixed; width:100%; top:0; left:0; margin:auto;}
+.topnavbar {background-color:#000000; position:fixed; width:100%; top:0; left:0; margin:auto; z-index:1}
 .active {background-color:#037360;}
-#projects-dropdown {display:none; position:absolute; background-color:#000000; box-shadow:5px 5px 10px white, -5px 5px 10px white; z-index:-1}
+#projects-dropdown {display:none; position:absolute; background-color:#000000; box-shadow:2px 2px 10px white, -2px 2px 10px white; z-index:-1}
 #projects-dropdown a {color:white; padding:12px 16px; text-decoration:none; display:block; text-align:left;}
 #projects-dropdown a:hover {background-color:#f1f1f1;}
 .dropdown:hover #projects-dropdown {display:block;}
