@@ -1,3 +1,5 @@
 iframe {aspect-ratio:16/9; width:70%; margin:0 auto; display:block;}
-
 .game_frame {width:100%;}
+
+h1 {font-family:'Courier New',monospace; font-size:36px: font-weight:bold;}
+p#warning {font-size:24px; font-weight:bold;}
