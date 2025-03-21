@@ -12,10 +12,16 @@
 <body>
 <div class="topnavbar">
   <ul id="navlist">
-    <li><a href="konradev.me/index.html">Home</a></li>
-    <li><a class="active" href="konradev.me/projects.html">Projects</a></li>
-    <li><a href="konradev.me/aboutme.html">About me</a></li>
-    <li><a href="konradev.me/contact.html">Contact</a></li>
+    <li><a class="active" href="konradev.me">Home</a></li>
+    <li class="dropdown">
+      <a class="dropdownbtn" href="/projects">Projects</a>
+      <div id="projects-dropdown">
+        <a href="projects/rebound">Rebound</a>
+        <a href="projects/timefromnow">TimeFromNow</a>
+      </div>
+    </li>
+    <li><a href="/about">About me</a></li>
+    <li><a href="/contact">Contact</a></li>
   </ul>
 </div>
 
